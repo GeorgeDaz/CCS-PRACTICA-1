@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Práctica de CSS Grid Layout</title>
+    <meta name="description" content="Descripción de la página" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Archivo CSS externo -->
+  </head>
+  <body>
+    <header>
+      <h1>Título Principal</h1>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre">Sobre nosotros</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio">
+        <h2>Bienvenido a nuestra página</h2>
+        <p>Este es el contenido principal de la página.</p>
+      </section>
+
+      <section id="sobre">
+        <h2>Sobre nosotros</h2>
+        <p>Aquí puedes poner información sobre tu proyecto, empresa o blog.</p>
+      </section>
+
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <p>
+          Para más información, contáctanos en:
+          <a href="mailto:info@ejemplo.com">info@ejemplo.com</a>
+        </p>
+      </section>
+
+      <!-- Nueva sección para practicar CSS Grid Layout -->
+      <section id="practica">
+        <h2>Práctica de CSS Grid</h2>
+        <div class="grid-container">
+          <div class="grid-item">1</div>
+          <div class="grid-item">2</div>
+          <div class="grid-item">3</div>
+          <div class="grid-item">4</div>
+          <div class="grid-item">5</div>
+          <div class="grid-item">6</div>
+          <div class="grid-item">7</div>
+          <div class="grid-item">8</div>
+          <div class="grid-item">9</div>
+        </div>
+      </section>
+
+      <div class="wrapper">
+        <div class="container1">
+          <div class="element1">top left</div>
+        </div>
+
+        <div class="container1">
+          <div class="element2">center left</div>
+        </div>
+
+        <div class="container1">
+          <div class="element3">bottom left</div>
+        </div>
+
+        <div class="container2">
+          <div class="element4">top center</div>
+        </div>
+
+        <div class="container2">
+          <div class="element5">center center</div>
+        </div>
+
+        <div class="container2">
+          <div class="element6">bottom center</div>
+        </div>
+
+        <div class="container3">
+          <div class="element7">top right</div>
+        </div>
+
+        <div class="container3">
+          <div class="element8">center right</div>
+        </div>
+
+        <div class="container3">
+          <div class="element9">bottom right</div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>
